@@ -12,6 +12,10 @@ class Leap_year {
         if (check % 4 == 0) {
             System.out.println("This is Leap Year.");
 
+            if (check == 2000) {
+                System.out.println(" Also, This is your birth year.");
+
+            }
         } else {
             System.out.println("This is Not a Leap Year.");
         }
