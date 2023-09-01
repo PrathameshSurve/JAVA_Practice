@@ -14,7 +14,7 @@ public class GuessRandomNumber {
 
         for (int i = 1; i < 10; i++) {
             if (number == sysnum) {
-                System.out.println("Your guess is correct.");
+                System.out.println("GOOD ONE! Your guess is correct.");
                 break;
             } else if (number > 100 || number < 1) {
                 System.out.println("You entered a wrong input. Please enter number between 1 to 100.");
@@ -30,11 +30,10 @@ public class GuessRandomNumber {
                 System.out.println("\nYou've used all your attempts.");
                 System.out.println("The correct number was: " + sysnum);
             }
-            num.close();
 
             number = num.nextInt();
         }
-
+        num.close();
         System.out.println("Thanks for playing!");
 
     }
