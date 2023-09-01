@@ -1,6 +1,5 @@
 
 import java.util.*;
-import java.math.*;
 
 public class GuessRandomNumber {
 
@@ -31,6 +30,7 @@ public class GuessRandomNumber {
                 System.out.println("\nYou've used all your attempts.");
                 System.out.println("The correct number was: " + sysnum);
             }
+            num.close();
 
             number = num.nextInt();
         }
