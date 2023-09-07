@@ -7,7 +7,7 @@ public class CombineNamesArraylist {
         ArrayList<String> firstNames = new ArrayList<>();
         ArrayList<String> combinedNames = new ArrayList<>();
 
-        surnames.add("Pophale");
+        surnames.add("Gole");
         surnames.add("Surve");
         surnames.add("Patil");
         surnames.add("Ghatge");
