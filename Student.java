@@ -1,8 +1,7 @@
-import java.util.*;
 
 public class Student {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Student1 s1 = new Student1();
         System.out.println();
         s1.printName();
@@ -14,7 +13,7 @@ public class Student {
 
 class Student1 {
 
-    public void printName() {
+    public void printName() throws Exception {
         String name = "IName";
         System.out.println(name);
         int a = 10, b = 0, c = 0;
@@ -22,7 +21,7 @@ class Student1 {
         System.out.println(c);
     }
 
-    public void getName() {
+    public void getName() throws Exception {
 
         System.out.println();
     }
