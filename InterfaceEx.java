@@ -1,9 +1,9 @@
-public class NewCode{
+public class InterfaceEx{
     public static void main(String[] args) {
         // any object =new any();
         // object.fun2();
         example1.fun2();
-
+          
     }
 }
 interface example1{
@@ -18,7 +18,6 @@ class any implements example1{
 
     @Override
     public void fun() {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'fun'");
     }
 
