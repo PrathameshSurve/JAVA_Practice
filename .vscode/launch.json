@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InterfaceEx",
+            "request": "launch",
+            "mainClass": "InterfaceEx",
+            "projectName": "JAVA_Practice"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

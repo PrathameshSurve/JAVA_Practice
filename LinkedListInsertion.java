@@ -36,7 +36,7 @@ public class LinkedListInsertion {
         System.out.println("\nUsing ListIterator to insert at first and last positions:");
         ListIterator<String> iterator = linkedList.listIterator();
         while (iterator.hasNext()) {
-            String element = iterator.next();
+        //    String element = iterator.next();
             if (!iterator.hasNext()) {
                 iterator.add("Date");
             }
