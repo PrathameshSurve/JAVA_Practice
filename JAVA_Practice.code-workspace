@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"task.allowAutomaticTasks": "auto",
+		"testing.alwaysRevealTestOnStateChange": true,
+		"testing.automaticallyOpenPeekView": "failureAnywhere",
+		"testing.automaticallyOpenPeekViewDuringAutoRun": true,
+		"extensions.closeExtensionDetailsOnViewChange": true,
+		"extensions.ignoreRecommendations": true,
+		"scm.alwaysShowRepositories": true,
+		"scm.alwaysShowActions": true,
+		"java.help.collectErrorLog": true,
+		"jupyter.allowUnauthorizedRemoteConnection": false,
+		"java.compile.nullAnalysis.mode":"disabled",       //Manualy Added Settings.
+		"java.compile.nullAnalysis.nonnull": [
+			
+
+			"javax.annotation.Nonnull",
+			"org.eclipse.jdt.annotation.NonNull",
+			"org.springframework.lang.NonNull"
+		],
+		"java.test.defaultConfig": "Java Test",
+		"java.test.config": {
+			"testKind": "junit"
+			
+		}
+	}
+}
